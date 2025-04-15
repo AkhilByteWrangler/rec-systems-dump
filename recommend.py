@@ -5,7 +5,7 @@ import numpy as np
 
 
 def load_everything(
-    model_path="recipe_gnn_script_10k.pt",
+    model_path="recipe_gnn_script_100k.pt",
     user_map_path="user_map.pkl",
     recipe_map_path="recipe_map.pkl",
     recipe_csv_path="RAW_recipes.csv"

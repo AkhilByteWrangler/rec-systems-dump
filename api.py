@@ -102,4 +102,4 @@ def coldstart_route(req: ColdStartRequest):
             } for rid, title, score in recs
         ]
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e))f
